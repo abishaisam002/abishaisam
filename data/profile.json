@@ -1,0 +1,305 @@
+{
+  "name": {
+    "first": "Abishai",
+    "last": "Sam",
+    "full": "Abishai Sam"
+  },
+  "email": "abishaisam02@gmail.com",
+  "tagline": "Project / Portfolio Manager | Digital Transformation | Operations & Business Development",
+  "description": "Building full digital ecosystems — digital identity, web, ERP, and marketing structures — for European companies entering new markets.",
+  "roles": {
+    "short": "Project Manager",
+    "detailed": "Project & Portfolio Mgmt · Digital Transformation · Operations Management"
+  },
+  "location": {
+    "based": "Sharjah, UAE",
+    "availability": "Worldwide"
+  },
+  "available": true,
+  "bio": "Results-driven Project & Portfolio Manager with 10+ years of international experience across UAE, Italy, and global markets. Expert in IT infrastructure, digital transformation, AI-powered operations, and cross-border business management. Proven record of improving operational efficiency by 70%, reducing project timelines by 50%+, and building complete digital ecosystems — digital identity, web, ERP, and marketing structures — for European companies entering new markets.",
+  "stats": [
+    { "value": "10+",  "label": "Multidisciplinary Experience" },
+    { "value": "6+", "label": "Ventures Built" },
+    { "value": "70%",   "label": "Efficiency Improvement" }
+  ],
+  "skills": [
+    "Project & Portfolio Mgmt",
+    "Operations Management",
+    "Digital Transformation",
+    "ERP - Odoo/OpenERP",
+    "IT Infrastructure",
+    "AI Tools & Automation",
+    "Web Development",
+    "Power BI & SQL",
+    "Digital Marketing",
+    "SEO",
+    "Business Development",
+    "Data Analysis & Reporting"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Project & Digital Development Manager",
+      "company": "XSTRO S.r.l",
+      "companyShort": "XSTRO",
+      "type": "Remote",
+      "location": "Italy",
+      "period": "Jun 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Leading website, branding and full digital infrastructure development for company launch",
+        "Supporting business setup, investment structuring and early-stage marketing execution"
+      ],
+      "desc": "Leading website, branding and full digital infrastructure development for company launch.",
+      "tech": [
+        "Digital Infrastructure",
+        "Web Development",
+        "Branding",
+        "Marketing Strategy"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Project / Portfolio Manager",
+      "company": "AG-Group — Italian Investment Conglomerate",
+      "companyShort": "AG-GROUP",
+      "type": "Full-time",
+      "location": "Dubai, UAE & Italy",
+      "period": "Dec 2023",
+      "periodEnd": "Present",
+      "bullets": [
+        "Managing a portfolio of investor-led ventures across UAE and Italy: Arts Guerreschi, Agricola Guerreschi, XSTRO S.r.l and VALOR FZE.",
+        "Planning, scheduling, monitoring and reporting activities across all departments; supporting CEO.",
+        "Administering IT infrastructure, operating systems, servers and cloud environments across the group.",
+        "Deploying AI tools (ChatGPT, Claude, Gemini) to automate reporting, content workflows and operational processes."
+      ],
+      "desc": "Managing a portfolio of investor-led ventures across UAE and Italy. Overseeing IT infrastructure, financial reporting, and AI integration for streamlined operations.",
+      "tech": ["IT Infrastructure", "AI Automation", "Financial Reporting", "Project Management", "Cloud Systems"]
+    },
+    {
+      "id": 3,
+      "role": "Business Developer & General Manager",
+      "company": "VALOR FZE",
+      "companyShort": "VALOR FZE",
+      "type": "Full-time",
+      "location": "Sharjah, UAE",
+      "period": "Oct 2024",
+      "periodEnd": "Present",
+      "bullets": [
+        "Opened a new company 'Valor' bridging Italian and European companies into the Middle East market.",
+        "Conducted UAE market analysis, competitor research, buyer persona studies and pricing benchmarking.",
+        "Delivering end-to-end services: Business and Project management, web design & development, branding, digital identity, SEO and marketing strategy execution.",
+        "Leveraging AI tools for content generation, SEO automation, campaign analytics and client reporting."
+      ],
+      "desc": "Bridging Italian and European companies into the Middle East market. Delivered end-to-end business and project management, branding, and digital identity.",
+      "tech": ["Business Development", "Web Design", "SEO", "Market Analysis", "AI Tools"]
+    },
+    {
+      "id": 4,
+      "role": "Office Manager / IT Developer / Project Manager",
+      "company": "Arts Guerreschi",
+      "companyShort": "ARTS GUERRESCHI",
+      "type": "Full-time",
+      "location": "Dubai, UAE",
+      "period": "Dec 2023",
+      "periodEnd": "Dec 2024",
+      "bullets": [
+        "Established full company operations in Dubai, managed artists, sales pipeline and administration.",
+        "Developed corporate portfolio website, branding and complete digital identity from scratch.",
+        "Managed art projects, client exhibitions and operational reporting; handled company closure and compliance."
+      ],
+      "desc": "Established full company operations in Dubai. Developed corporate portfolio website, branding and complete digital identity from scratch.",
+      "tech": ["Operations", "Web Development", "Branding", "Event Management"]
+    },
+    {
+      "id": 5,
+      "role": "Asst. Office Manager / Project Manager / IT Manager",
+      "company": "Global Tex Distribution",
+      "companyShort": "GLOBAL TEX",
+      "type": "Full-time",
+      "location": "Dubai, UAE",
+      "period": "Dec 2020",
+      "periodEnd": "Dec 2023",
+      "bullets": [
+        "Managed entire IT infrastructure, digital systems and all internal/external projects; handled company opening and closure operations",
+        "Developed company website, led all digital marketing activities and online brand presence",
+        "Full project lifecycle: planning, scheduling, monitoring and reporting across all departments and project types",
+        "Managed office operations, HR functions and cross-functional team coordination"
+      ],
+      "desc": "Managed entire IT infrastructure, digital systems and all internal/external projects; handled company opening and closure operations.",
+      "tech": ["IT Infrastructure", "Project Management", "Digital Marketing", "Office Operations"]
+    },
+    {
+      "id": 6,
+      "role": "IT Manager & Trainer",
+      "company": "Vibemac S.p.A — Vi.Be.MAC MEA (Middle East Subsidiary)",
+      "companyShort": "VIBEMAC MEA",
+      "type": "Full-time",
+      "location": "Sharjah, UAE",
+      "period": "Dec 2018",
+      "periodEnd": "Dec 2020",
+      "bullets": [
+        "Administered IT infrastructure: Synology servers, databases, cloud systems and VBM proprietary platforms",
+        "ERP Administration & Training: Managed ERP across the organisation; developed SOPs, tutorials and trained employees",
+        "IT Support across Asia & Africa branches; produced catalogues, marketing materials and business presentations"
+      ],
+      "desc": "Administered IT infrastructure: Synology servers, databases, cloud systems and VBM proprietary platforms.",
+      "tech": ["IT Infrastructure", "ERP Admin", "IT Support", "Training & Development"]
+    },
+    {
+      "id": 7,
+      "role": "IT Engineer / Customer Care",
+      "company": "Oubari Gulf FZE (Vibemac Partner)",
+      "companyShort": "OUBARI GULF",
+      "type": "Full-time",
+      "location": "Sharjah, UAE",
+      "period": "Dec 2015",
+      "periodEnd": "Dec 2018",
+      "bullets": [
+        "Provided IT and after-sales support, handled customer enquiries, warranty claims and technical requests",
+        "Managed spare parts inventory & warehouse ($300K stock); implemented ERP based reorder rules increasing revenue",
+        "Supported all sales and operational activities; maintained full internal IT infrastructure"
+      ],
+      "desc": "Provided IT and after-sales support, handled customer enquiries, warranty claims and technical requests.",
+      "tech": ["IT Support", "Customer Care", "Warehouse Management", "ERP Systems"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Agricola Guerreschi",
+      "subtitle": "Corporate Website",
+      "type": "Corporate Website",
+      "link": "https://agricolaguerreschi.it",
+      "linktree": "https://linktr.ee/agricola.guerreschi",
+      "image": "/assets/agricola_guerreschi_portfolio.webp",
+      "tech": ["Web Development", "Digital Presence", "Branding"],
+      "desc": "Corporate website & digital presence for an Italian wine & olive oil brand."
+    },
+    {
+      "id": 2,
+      "title": "XSTRO",
+      "subtitle": "Digital Platform",
+      "type": "Digital Platform",
+      "link": "https://xstro.it",
+      "linktree": "https://linktr.ee/xstro_it",
+      "image": "/assets/xstro_portfolio.webp",
+      "tech": ["Web Development", "Branding", "Project Launch"],
+      "desc": "Digital platform for a new business concept, encompassing full branding and project launch strategy."
+    },
+    {
+      "id": 3,
+      "title": "Arts Guerreschi",
+      "subtitle": "Art Portfolio",
+      "type": "Portfolio",
+      "link": "https://artsguerreschi.com",
+      "linktree": "https://linktr.ee/arts.guerreschi",
+      "image": "/assets/arts_portfolio.webp",
+      "tech": ["Web Development", "Digital Identity", "Exhibitions"],
+      "desc": "Art-focused website dedicated to showcasing projects, prominent artists, and exhibitions."
+    }
+  ],
+  "expertise": [
+    {
+      "id": 1,
+      "type": "Education",
+      "title": "MBA - Business Administration",
+      "subtitle": "University of the People, USA",
+      "desc": "Master of Business Administration · 2021 - 2023 · First Class",
+      "year": "2023"
+    },
+    {
+      "id": 2,
+      "type": "Education",
+      "title": "B.E - Electronics & IT",
+      "subtitle": "Anna University, India",
+      "desc": "Bachelor of Engineering in Electronics & IT · 2010 - 2014 · First Class",
+      "year": "2014"
+    },
+    {
+      "id": 3,
+      "type": "Certification",
+      "title": "PMP - Project Management Professional",
+      "subtitle": "Google · Red Learning · 365 Careers",
+      "desc": "Google, Red Learning and 365 Careers training framework",
+      "year": "2024"
+    },
+    {
+      "id": 4,
+      "type": "Certification",
+      "title": "Certified Data Analyst",
+      "subtitle": "Google",
+      "desc": "Google Data Analytics Professional Certificate",
+      "year": "2024"
+    },
+    {
+      "id": 5,
+      "type": "Certification",
+      "title": "SQL Data Analyst",
+      "subtitle": "UC Davis",
+      "desc": "Database design, SQL programming and data analysis",
+      "year": "2024"
+    },
+    {
+      "id": 6,
+      "type": "Certification",
+      "title": "Linux Sys Admin (Red Hat)",
+      "subtitle": "Siles Power Training",
+      "desc": "Red Hat Enterprise Linux system administration training",
+      "year": "2024"
+    },
+    {
+      "id": 7,
+      "type": "Certification",
+      "title": "SEO Expert & Digital Marketing",
+      "subtitle": "HubSpot Academy · Udemy",
+      "desc": "Inbound marketing, SEO strategy, and campaign deployment",
+      "year": "2024"
+    },
+    {
+      "id": 8,
+      "type": "Certification",
+      "title": "Graphic Design - Adobe Illustrator",
+      "subtitle": "Udemy",
+      "desc": "Branding design, vector layouts, and digital branding identity",
+      "year": "2024"
+    },
+    {
+      "id": 9,
+      "type": "Skills",
+      "title": "Project & Operations Competencies",
+      "subtitle": "Core Skills",
+      "desc": "Project & Portfolio Mgmt · Operations Management · Business Development · Digital Transformation · Team Leadership · ERP - Odoo / OpenERP · IT Infrastructure · AI Tools & Automation · Web Development · Power BI & SQL · Digital Marketing · SEO · Data Analysis & Reporting",
+      "year": "Skills"
+    },
+    {
+      "id": 10,
+      "type": "AI Tech",
+      "title": "AI & Workflow Automation",
+      "subtitle": "Emerging Tech",
+      "desc": "ChatGPT · Claude · Gemini · AI Prompt Engineering · AI-Driven Data Analysis · Workflow Automation (AI) · LLM Integration for Ops · AI Content & SEO Tools",
+      "year": "AI"
+    },
+    {
+      "id": 11,
+      "type": "Software",
+      "title": "Advanced ERP & Systems Admin",
+      "subtitle": "Tool Stack",
+      "desc": "Odoo ERP (Advanced) · Power BI · WordPress & CMS · MySQL · PostgreSQL · MSSQL · Synology / Linux Admin · Adobe Suite (Ai · Ps · Ind) · Google Workspace",
+      "year": "Tools"
+    },
+    {
+      "id": 12,
+      "type": "Languages",
+      "title": "Multilingual Proficiency",
+      "subtitle": "Languages",
+      "desc": "English C1 (Advanced) · Italian B1 (Basic) · Tamil C2 (Native) · Malayalam A2 (Basic)",
+      "year": "Lang"
+    }
+  ],
+  "socials": [
+    { "label": "LinkedIn",  "href": "https://www.linkedin.com/in/abishai-s-b086457a/" },
+    { "label": "Email", "href": "mailto:abishaisam02@gmail.com" },
+    { "label": "Phone", "href": "tel:+971558761840" }
+  ]
+}
