@@ -1,0 +1,381 @@
+/* ── Section ───────────────────────────────────── */
+.section {
+  height: 100vh;
+  background: #080808;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+}
+
+.section::before {
+  content: 'EXPERIENCE';
+  position: absolute;
+  bottom: -0.06em;
+  right: -0.04em;
+  font-size: clamp(5rem, 11vw, 13rem);
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.022);
+  letter-spacing: -0.05em;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+/* ── Background image ──────────────────────────── */
+.bgImg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bgImgEl {
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.07;
+}
+
+/* ── Header ────────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(4rem, 7vh, 5rem) clamp(1.5rem, 5vw, 4.5rem) 0;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: var(--text-small);
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.labelRight {
+  font-size: var(--text-small);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.2);
+  font-family: var(--font-geist-mono), monospace;
+}
+
+/* ── Timeline area ─────────────────────────────── */
+.timeline {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 clamp(1.5rem, 5vw, 4.5rem) clamp(2rem, 5vh, 4rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - clamp(4rem, 7vh, 5rem) - 130px);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(247, 147, 30, 0.85) rgba(255, 255, 255, 0.05);
+}
+
+.timeline::-webkit-scrollbar {
+  width: 10px;
+  display: block !important;
+}
+.timeline::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 99px;
+}
+.timeline::-webkit-scrollbar-thumb {
+  background: rgba(247, 147, 30, 0.85) !important;
+  border-radius: 99px;
+  border: 2px solid #080808;
+}
+.timeline::-webkit-scrollbar-thumb:hover {
+  background: rgba(247, 147, 30, 1.0) !important;
+}
+
+/* Relative wrapper for absolute snake line */
+.timelineBody {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* ── Snake line ─────────────────────────────────── */
+.snakeLine {
+  position: absolute;
+  left: 26px;          /* center of 52px dot */
+  top: 26px;
+  bottom: 26px;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--accent) 6%,
+    rgba(247, 147, 30, 0.55) 50%,
+    rgba(247, 147, 30, 0.2) 94%
+  );
+  box-shadow: 0 0 12px rgba(247, 147, 30, 0.28);
+  transform-origin: center top;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Entries row ────────────────────────────────── */
+.entries {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.entry {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: clamp(1.5rem, 3vw, 3rem);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* ── Numbered dot ───────────────────────────────── */
+.dot {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #0c0c0c;
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  box-shadow:
+    0 0 0 6px rgba(247, 147, 30, 0.05),
+    0 0 22px rgba(247, 147, 30, 0.1);
+}
+
+.dot::after {
+  display: none;
+}
+
+.dotNum {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.06em;
+}
+
+/* ── Card content ───────────────────────────────── */
+.card {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 8px;
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.period {
+  font-size: var(--text-small);
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.typeTag {
+  font-size: var(--text-small);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.38rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.location {
+  font-size: var(--text-small);
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+}
+
+.company {
+  font-size: clamp(1.1rem, 2vw, 1.9rem);
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.025em;
+  line-height: 1.0;
+  margin: 0.1rem 0 0;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.role {
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.32);
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ── Bullets ────────────────────────────────────── */
+.bullets {
+  list-style: none;
+  padding: 0.1rem 0 0 0.75rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  border-left: 2px solid rgba(247, 147, 30, 0.2);
+  min-width: 0;
+  overflow: hidden;
+  max-height: 5rem; /* GSAP expands on hover */
+}
+
+.bullet {
+  font-size: var(--text-body);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.44);
+  flex-shrink: 0;
+}
+
+/* ── Tech stack ─────────────────────────────────── */
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 0.2rem;
+}
+
+.tag {
+  font-size: var(--text-small);
+  font-weight: 600;
+  padding: 0.14rem 0.4rem;
+  border-radius: 3px;
+  background: rgba(247, 147, 30, 0.07);
+  color: rgba(247, 147, 30, 0.8);
+  border: 1px solid rgba(247, 147, 30, 0.16);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+/* ── Mobile (≤767px) ────────────────────────────── */
+@media (max-width: 767px) {
+  .section {
+    height: 100svh !important;
+  }
+
+  .header {
+    padding: 3.5rem clamp(1rem, 4vw, 1.5rem) 0;
+  }
+
+  .timeline {
+    justify-content: flex-start;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100svh - 150px) !important;
+  }
+
+  .snakeLine { display: none; }
+
+  .entries {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .entry {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+    min-width: 0;
+    flex: 0 0 auto !important;
+  }
+
+  .dot {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .dot::after { display: none; }
+
+  .card { padding-top: 0; }
+
+  .company  { font-size: 1.1rem; }
+  .bullets  { max-height: none !important; overflow: visible !important; }
+  .bullet   { font-size: 0.88rem; }
+  .stack    { display: none; }
+}
+
+/* ── Tablet (768–1023px) ────────────────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header   { padding-top: clamp(1.5rem, 5vh, 3rem); }
+  .company  { font-size: 1.3rem; }
+  .entries  { gap: 1.5rem; }
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: 1.1rem;
+  right: clamp(1.5rem, 5vw, 4.5rem);
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .scrollHint {
+    display: flex !important;
+    bottom: 0.6rem !important;
+    right: 1.25rem !important;
+  }
+}
+
+.scrollHintText {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.72;
+}
+
+.scrollHintArrow {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.85;
+  animation: scrollHintBounce 2s infinite ease-in-out;
+}
+
+@keyframes scrollHintBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
